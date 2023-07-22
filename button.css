@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+button{
+    background: none;
+    color: #ffa;
+    border:2px solid ;
+    padding : 1em 2em ;
+    font-size: 1em ;
+    transition: all 0.25s;
+}
+button:hover{
+    border-color:#f1ff5c;
+    color:white;
+    box-shadow : 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+cursor: pointer;
+}
+section{
+    width: 80% ;
+    height: 800px;
+    background-image:url("https://images.unsplash.com/photo-1564442038901-4f9a19d3d456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1227&q=80");
+    background-size: cover;
+    
+   
+
+margin :0 auto ;
+}
+
+
+h1{
+    font-size:100px ;
+    color: orange;
+}

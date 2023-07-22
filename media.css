@@ -1,0 +1,42 @@
+/* hmne jo html m link dala h font ka open sans vgera style h font k */
+body{
+    font-family: 'open Sans', sans-serif;
+}
+h1{
+    font-size: 6em;
+    text-align: center;
+}
+nav{
+    font-size: 1.5 em;
+
+}
+ul, li{
+    display: inline ;
+    /* margin krne se bhar jgah bdjati h aur paddinng krne se jha contnt h vha andr jga bdti h */
+    margin: 0;
+    padding : 0 ;
+}
+/*  media use krne se jb hm chota kr re h scrn ko to vo khd adjust ho rha h cntnt */
+/* @media (width:800px){ 
+    h1{
+        color:purple;
+    } */
+    h1{
+        color:red;
+    }
+@media(min-width:400px){
+    h1{
+        color: purple;
+    }
+}
+@media(min-width:500px){
+h1{
+    color: yellow;
+}
+}
+@media(min-width: 850px){
+    h1{
+color: green ;
+    }
+}
+

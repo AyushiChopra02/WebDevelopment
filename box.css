@@ -1,0 +1,47 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+#one{
+    background-color: blue;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    padding-right: 100px;
+}
+#two{
+    background-color: blueviolet;
+    border-color:lightcoral;
+    border-style: dashed;
+    border-radius: 25%;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+#three{
+    background-color: brown;
+    border : 4px ,solid , black , ;
+    border-left-style : dotted;
+}
+/* padding means area between content area jha likha hua h hmne aur content box k beech m jo area */
+button{
+    /* pahhle vala 10px mtlb top and bottom aur 20px scnd vala mtlb left and right */
+    padding :10px 20px ;
+}
+/* aur agr chaar alg px diye ho to (top right bottom  left) ye series hoti h
+ek hi px ho jaise 20px mtlb padding to all sides */ 
+
+/*padding is spacing on the inside of the border and margin is spaciimg outside */
+/* display property:- 1. inline 2. block 3.inline-block
+inline m wdth & hght ignore padding aur mrgin awy horizontally not vertically
+block elemnt brk flow of dcmnt. wdth , mrgin,hght,padding are respcted
+inline-block behve like inline elmnt excpt wdth hght padding mrgin respcted */
+h2{
+    font-size: 2em;
+    margin-left: 1em ;
+}
+#opacity{
+    width:50% ;
+    background-color: rgba(255,45,255,0.7);
+    opacity:0.5;
+}

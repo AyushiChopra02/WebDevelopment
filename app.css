@@ -1,0 +1,35 @@
+    h2{
+        color:red;
+
+        /* rgb color system= red green blue :- range goes from 0 to 255 
+         hr color ki alg alg value hoti h yaad krne ki need nai */
+
+        background-color : rgb(0, 4, 12);
+
+
+        /*font-family: Arial ;*/
+        font-family: fantasy;
+    }
+    button{
+        color:blue; 
+        background-color : yellow;
+    }
+    p{
+        color:olive;
+        background-color: pink;
+    }
+    body{
+        background-color:lightskyblue;
+    }
+    h2{
+        letter-spacing: 15px;
+        text-align: center ;
+        font-weight:normal ;
+
+        /* hexadecimal color system isme bhi rgb color e hote hai like isme #33ffee 
+        33 stands for red , ff stands for green , ee stands for blue isme b hr
+         color ki alg valuehoti # k baad need nai lrn krne ki */
+    
+        text-decoration : #33ffee underline wavy;
+        font-size: 80px;
+    }

@@ -1,0 +1,75 @@
+/* *{}ise pure page select hogya called as universal selector */
+*{
+   background-color:  lightgray ;
+}
+/*element selector:- select all elemnts of a type */
+/* px mtlb pixel */
+button{
+    font-size: 30px;
+}
+
+/*selector list:- select all h1 , h2*/
+h1, h2{
+    color:blue;
+}
+/* idselector
+ select the elemnt with id...hmne button ki id dali h
+id apni mrzi se kuch b rkh skte h
+id mai # fr id aur class mai . fir class*/
+#Signup{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+/* span mtlb tags jo last m jaise likhe hue h */
+span {
+color : #457b9d;
+}
+/*class selector
+ id jaisa hi hota h lein isme multiple elemnts m ek sath chnges kr skte h
+likhne ka syntx pahle . fr jo nam rkha class ka jaise mne tag rkha kuj b rkh skte h */
+.tag{
+    background-color: #1d3557;
+}
+/* descendent selector
+     anchor tag mai space fr a fr space fr bracket aise likhte h */
+     a {
+        color: #4d4d4d;
+    }
+    /* adjacent selector :- +
+    h2 k baad button likha h mtlb same level pr h
+    h2 + button{} aise likhte h adjacnt ko dono m chnge */
+    h2 + button{
+        background-color: red ;
+    }
+    /* direct child
+    div < li { */
+        footer  > a {
+            color : orange ;    
+        }
+        /* the attribute selector 
+         select all input elemnt  jha type attribute  passwrd h*/
+        input[type="password"]{
+            color : palegreen;
+        }
+/* pseudo classes : spcfy spcl state of elemnt :: aise krke likhte h
+hover mtlb mouse ko la rhe h button pr to color bdl ra h */
+        button:hover{
+            background-color:violet;
+            color :#f1faee;
+        }
+        .post{
+            background-color: #1d3557;
+        }
+        /*pseudo element kuj portion elemnt m chnge krna */
+        h2:first-letter{
+            font-size : 50px;
+        }
+        /* jb hm kuj select kre h to vo orgne red color aara h*/
+        ::selection{
+            background-color: orangered;
+        }
+        /* jb same changes ho like color m e do alg jgh kre ho to 
+        id>class> element..... aise selct krte h */
+        
+
+        
