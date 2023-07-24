@@ -113,3 +113,19 @@ Math.ceil(34.1)
 35
 Math.random()
 0.12585278342946826
+console.warn("UH OH WARNING)
+VM200:1 Uncaught SyntaxError: Invalid or unexpected token
+console.warn("UH OH WARNING!")
+VM213:1 UH OH WARNING!
+(anonymous) @ VM213:1
+undefined
+alert("HI THERE!")
+undefined
+prompt("please enter number")
+'22'
+let userInput = prompt("please enter number")
+undefined
+userInput
+'33'
+parseInt("101asnhcb2")
+101
