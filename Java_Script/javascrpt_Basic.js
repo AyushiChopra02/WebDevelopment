@@ -129,3 +129,50 @@ userInput
 '33'
 parseInt("101asnhcb2")
 101
+
+// push & pop
+let movieLine = ['tom' , 'jerry']
+undefined
+movieLine[2] = 'pablo'
+'pablo'
+movieLine.push('eva')
+4
+movieLine
+(4) ['tom', 'jerry', 'pablo', 'eva']
+movieLine.pop()
+'eva'
+movieLine
+(3) ['tom', 'jerry', 'pablo']
+
+// shift & unshift
+movieLine.unshift('VIP')
+4
+movieLine
+(4) ['VIP', 'tom', 'jerry', 'pablo']
+movieLine.shift()
+'VIP'
+movieLine
+(3) ['tom', 'jerry', 'pablo']
+
+//concact
+let cats = ['kitty' , 'rai' , 'bruno']
+undefined
+let dogs = ['car' , 'gai']
+undefined
+dogs.concat(dogs)
+(4) ['car', 'gai', 'car', 'gai']
+dogs.concat(cats)
+(5) ['car', 'gai', 'kitty', 'rai', 'bruno']
+
+cats.includes('blue')
+false
+cats.includes('kitty')
+true
+
+// slice
+let colors = ['red' ,'orange' , 'blue' , 'violent'] ;
+undefined
+colors.slice()
+(4) ['red', 'orange', 'blue', 'violent']
+colors.slice(1)
+(3) ['orange', 'blue', 'violent']
