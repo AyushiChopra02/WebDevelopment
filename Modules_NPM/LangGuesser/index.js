@@ -1,5 +1,10 @@
 const franc = require("franc");
 const langs = require("langs");
-const langCode = franc('Alle menslike wesens  word vry');
+const input = process.argv[2];
+const langCode = franc(input);
+if(langCode === 'und'){
+    console.log("sorry")
+}else{
 const language = langs.where("3" , langs);
-console.log(language)
+console.log(`our best guess is :${language.name}`)
+}
