@@ -7,7 +7,7 @@ if (el % 2 ===0){
     console.log(el)
 }
 })
-
+ 
 // map method
 const doubles = numbers.map(function (num){
     return num * 2 ;
